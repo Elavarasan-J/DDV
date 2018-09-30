@@ -1,14 +1,14 @@
 <?php
-	$activeMenu = 'contact';
+	$activeMenu = 'Contact Us';
 	include_once('includes/header.php'); 
 ?>
 
-<div class="subpage-banner" style="background:url('images/subpage-banner.jpg');">
+<div class="subpage-banner">
 	<div class="table-container">
 		<div class="table-cell">
 			<div class="container">
 				<div class="subpage-head">
-					<h3>Contact</h3>
+					<h3>Contact Us</h3>
 				</div>
 			</div>
 		</div>
@@ -18,66 +18,27 @@
 <div class="subpage-wrapper">
 	<div class="container">
 		<div class="contact-page">
-			 <div class="form-head">
-				 <h3>Career Opportunities</h3>
-				 <p>We are always looking to grow our team with creative, passionate professional people!</p>
-				 <p class="pos-available">Client Specialists <strong>&bull;</strong> Hairstylists <strong>&bull;</strong> Assistants <br> Barbers <strong>&bull;</strong> Estheticians <strong>&bull;</strong> Nail Technicians <strong>&bull;</strong> Makeup Artists </p>
-				 <a href="career.php" class="btn btn-primary btn-outline btn-lg">Apply Now</a>
-			</div>
-			
-			<div class="event-list-wrapper">
-				<div class="event-gird">
-					<div class="event-col">
-						<div class="event-image">
-							<img src="images/bloom-bridal.jpg" alt="Bloom Bridal">
-						</div>
-						<div class="event-content">
-							<h3>Bloom Bridal</h3>
-							<p>We can't wait to be a part of your special day!</p>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took and scrambled specimen book.</p>
-							<a class="event-button" href="bridal-form.php">
-								<i data-feather="chevron-right"></i> Click Here
-							</a>
-						</div>
+			<div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15627.37815766226!2d79.67463251738671!3d11.705421117122865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54a3327c7b4c9f%3A0x462032ba078bff2d!2sVellakarai%2C+Tamil+Nadu!5e0!3m2!1sen!2sin!4v1537282091081" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            
+            <div class="contact-info">
+					
+					<hr class="line50">
+					<div class="contact-row">
+                        <div class="contact-icon d-flex align-items-center justify-content-center"><i data-feather="map-pin"></i></div>
+						No:78, Middle Street,<br> Othiyadikuppam, Vellakarai (Post),<br> Cuddalore - 607003.
 					</div>
+					<div class="contact-row">
+                        <div class="contact-icon d-flex align-items-center justify-content-center"><i data-feather="phone"></i></div>
+                        +91-7339013805
+                    </div>
+					<div class="contact-row">
+                        <div class="contact-icon d-flex align-items-center justify-content-center"><i data-feather="mail"></i></div>
+                        ddvexports@gmail.com
+                    </div>
 				</div>
-
-				<div class="event-gird">
-					<div class="event-col">
-						<div class="event-image">
-							<img src="images/bloom-model.jpg" alt="Be a Model">
-						</div>
-						<div class="event-content">
-							<h3>Be a Model</h3>
-							<p>Our experienced educators train stylists and apprentices on a daily basis to help them develop their skills and refine their craft, workshops are held once a week so that stylists and apprentices can put their knowledge into practice.</p>
-							<p>* Classes are held every Monday from 5:30 - 8:30 *</p>
-							<a class="event-button" href="model-form.php">
-								<i data-feather="chevron-right"></i> Click Here
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
-		 
-		
-		<div class="contact-page hide">
-			 <div class="form-head">
-				 <h3>Bloom Bridal</h3>
-				 <p>We cant wait to be apart of your special day!</p>
-				 <a href="bridal-form.php" class="btn btn-primary btn-outline btn-lg">Click Here</a>
-			</div>
-		</div>
-		
-		<div class="contact-page hide">
-			 <div class="form-head">
-				 <h3>Be a Model</h3>
-				 <p>Our experienced educators train stylists and apprentices on a daily basis to help them develop their skills<br class="hidden-xs"> and refine their craft, workshops are held once a week so that stylists and apprentices can put their <br class="hidden-xs">knowledge into practice.</p>
-				 <p><span class="fw600">*</span> Classes are held every Monday from 5:30 - 8:30 <span class="fw600">*</span></p>
-				 <a href="model-form.php" class="btn btn-primary btn-outline btn-lg">Click Here</a>
-			</div>
-		</div>
-		
 	</div>
 </div>
 <?php include_once('includes/footer.php'); ?>

@@ -1,6 +1,6 @@
 <?php
 	$home_page = true;
-	$activeMenu = 'home';
+	$activeMenu = 'Home';
 
 	include_once('includes/header.php');	
 ?>
@@ -28,121 +28,125 @@
 </div>
 <!--/Banner Carousel -->
 
-<!--Event Section -->
-<div class="event-section d-none">
-	<div class="container">
-		<div class="event-head">
-			<h1>Bloom Morristown</h1>
-			<p>A first impression is the most defining statement about you. <br class="hidden-xs">Bloom will help you discover the image you want the world to see.</p>
-			<h3>Our Latest Event &amp; Promotion Special</h3>
-		</div>
-		
-		<div class="event-list-wrapper">
-			<div class="event-gird">
-				<div class="event-col">
-					<div class="event-image">
-						<img src="images/event1.jpg" alt="Event">
-					</div>
-					<div class="event-content">
-						<h3>Event Title One</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-						<a class="event-button" href="#">
-							<i data-feather="chevron-right"></i> Read More
-						</a>
-					</div>
-				</div>
-			</div>
-			
-			<div class="event-gird">
-				<div class="event-col">
-					<div class="event-image">
-						<img src="images/event2.jpg" alt="Event">
-					</div>
-					<div class="event-content">
-						<h3>Event Title Two</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-						<a class="event-button" href="#">
-							<i data-feather="chevron-right"></i> Read More
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
+<div class="p50 about-section">
+    <div class="container">
+        <div class="section-head">
+            <h3 class="about-title">About DDV Exports</h3>
+            <hr class="line50 center-block">
+        </div>
+        <div class="about-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit voluptate id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate id est laborum.</p>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit voluptate id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate id est laborum.</p>
+        </div>
+    </div>
 </div>
-<!--/Event Section -->
 
-<!-- Instagram Photos -->
-<div class="instagram-section d-none">
-	<div class="instagram-head">
-		<h3>GET INSPIRED BY FOLLOWING US</h3>
-		<ul class="social-list">
-			<li><a href="#"><i class="fill" data-feather="facebook"></i></a></li>
-			<li><a href="#"><i data-feather="instagram"></i></a></li>
-			<li><a href="#"><i class="fill" data-feather="twitter"></i></a></li>
-		</ul>
-	</div>
-	 
-	<div class="instagram-slick">
-		<div class="instagram-slick-col"> 
-			<a href="#">
-				<img src="images/insta1.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-		<div class="instagram-slick-col"> 
-			<a href="#">
-				<img src="images/insta1.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-		<div class="instagram-slick-col"> 
-			<a href="#">
-				<img src="images/insta2.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-		<div class="instagram-slick-col"> 
-			<a href="">
-				<img src="images/insta3.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-		<div class="instagram-slick-col"> 
-			<a href="">
-				<img src="images/insta4.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-		<div class="instagram-slick-col"> 
-			<a href="">
-				<img src="images/insta5.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-		<div class="instagram-slick-col"> 
-			<a href="">
-				<img src="images/insta6.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-		<div class="instagram-slick-col"> 
-			<a href="">
-				<img src="images/insta6.jpg" alt="Instagram" title="Instagram">
-			</a>
-		</div>
-	</div>
+<div class="p50 product-section">
+    <div class="container">
+        <div class="section-head">
+            <h3 class="about-title">Our Products</h3>
+            <hr class="line50 center-block">
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-lg-3">
+                <div class="product-column">
+                    <a href="product-detail.php">
+                        <div class="product-image">
+                            <img src="images/products/leather-jackets.jpg" class="img-fluid" alt="Leather Jackets">
+                            <span class="view-more-link"><img src="images/right-arrow.svg"></span>
+                        </div>
+                        <h4 class="product-title">Leather Jackets</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="product-column">
+                    <a href="product-detail.php">
+                        <div class="product-image">
+                            <img src="images/products/round-neck-tshirt.jpg" class="img-fluid" alt="Round Neck T-shirts">
+                            <span class="view-more-link"><img src="images/right-arrow.svg"></span>
+                        </div>
+                        <h4 class="product-title">Round Neck T-shirts <span class="view-more-icon"></span></h4>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="product-column">
+                    <a href="product-detail.php">
+                        <div class="product-image">
+                            <img src="images/products/sesame-oil.jpg" class="img-fluid" alt="Sesame oil">
+                            <span class="view-more-link"><img src="images/right-arrow.svg"></span>
+                        </div>
+                        <h4 class="product-title">Sesame oil</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="product-column">
+                    <a href="product-detail.php">
+                        <div class="product-image">
+                            <img src="images/products/coconuts.jpg" class="img-fluid" alt="Coconuts">
+                            <span class="view-more-link"><img src="images/right-arrow.svg"></span>
+                        </div>
+                        <h4 class="product-title">Coconuts</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="submit-button text-center">
+            <a href="#" class="btn btn-success">View All</a>
+        </div>
+    </div>
 </div>
-<!--/Instagram Photos -->
 
-<div class="app-download-section d-none">
-	<div class="container">
-		<div class="app-download-inner">
-			<div class="app-download-content">
-				<h4>Download Our BLOOM App</h4>
-				<p>Enjoy the Benefits: Mobile Confirmations, Check Upcoming Appointments, Request an Appointment,<br class="hidden-xs"> Purchase E- Gift Cards and much, much, more! </p>
-			</div>
-			<div class="app-download-action">
-				 <a href="#" class="android-app"></a>
-				 <a href="#" class="ios-app"></a>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
+<div class="p50 contact-section">
+    <div class="container">
+        <div class="section-head">
+            <h3 class="about-title">Enquire Us</h3>
+            <hr class="line50 center-block">
+        </div>
+        <div class="enquiry-wrapper">
+             
+            <form>
+                <div class="row form-group">
+                    <div class="col-sm">
+                        <input type="text" class="form-control form-control-lg" id="fname" placeholder="First Name *">
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control form-control-lg" id="lname" placeholder="Last Name *">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm">
+                        <input type="text" class="form-control form-control-lg" id="email" placeholder="Email Address *">
+                    </div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control form-control-lg" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm">
+                        <textarea class="form-control form-control-lg" rows="6" id="message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <button class="btn btn-success">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+
+<div class="customer-section">
+    <div class="container"> 
+        <ul class="customer-list">
+            <li><img src="images/customer/sony-pictures_42.png" alt=""></li>
+            <li><img src="images/customer/lt-infotech_44.png" alt=""></li>
+            <li><img src="images/customer/tcs_45.png" alt=""></li>
+            <li><img src="images/customer/umw_46.png" alt=""></li>
+        </ul>
+    </div>
+</div>
+
 
 <?php include_once('includes/footer.php'); ?>

@@ -13,7 +13,7 @@
   color: $input-color;
   background-color: $input-bg;
   background-clip: padding-box;
-  border: $input-border-width solid $input-border-color;
+  border: $input-border-width solid #dfe2f7;
 
   // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
   @if $enable-rounded {
@@ -157,8 +157,8 @@ select.form-control-sm {
 
 .form-control-lg {
   padding: $input-padding-y-lg $input-padding-x-lg;
-  font-size: $font-size-lg;
-  line-height: $input-line-height-lg;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
   @include border-radius($input-border-radius-lg);
 }
 
