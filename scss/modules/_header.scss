@@ -1,5 +1,5 @@
 .header{
-    padding: 1.5rem 0;
+    padding: 1.8rem 0;
 }
 .navbar-brand{
     >img{
@@ -43,7 +43,6 @@
             -webkit-transition: all 0.3s ease-in-out;
             -moz-transition: all 0.3s ease-in-out;
             &:hover, &.active{
-                color: #000;
                 &:after{
                     opacity: 1;
                     transform: translateY(3px); 
@@ -75,4 +74,32 @@
         stroke-width:3px;
     }
 }
+.banner-section{
+    background: url('../images/thumbs-up-banner.jpg')no-repeat right center;
+    background-size: cover;
+    height: 50rem;
+    position: relative;
+    >.d-flex{
+        height: 100%;
+    }
+}
+.banner-content {
+  color: #333;
+  max-width: 70rem;
+    >h1{
+        margin: 0 0 3rem;
+        font-weight: 600;
+        font-size: 5.5rem;
+        line-height: 6rem;
+        letter-spacing: -0.08rem;
+    }
+    >p{
+        font-size: 1.7rem;
+        line-height: 2.8rem;
+        margin: 0 0 3rem;
+    }
+}
 
+.banner-button .btn {
+  border-radius: 3rem;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.25); }

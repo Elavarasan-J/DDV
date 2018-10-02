@@ -254,9 +254,8 @@ $main-color: #65bd69;
 }
 .btn{
 	@include all-transition;
-	text-transform: uppercase;
 	font-weight: 600;
-	letter-spacing: 1px;
+	letter-spacing: 0.03rem;
 }
 .instagram-slick{
 	visibility: hidden;

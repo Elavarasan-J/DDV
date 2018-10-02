@@ -177,7 +177,7 @@ body {
   background: #222; }
 
 .header {
-  padding: 1.5rem 0; }
+  padding: 1.8rem 0; }
 
 .navbar-brand > img {
   display: block;
@@ -207,11 +207,9 @@ body {
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out; }
-    .custom-navbar > li > a:hover, .custom-navbar > li > a.active {
-      color: #000; }
-      .custom-navbar > li > a:hover:after, .custom-navbar > li > a.active:after {
-        opacity: 1;
-        transform: translateY(3px); }
+    .custom-navbar > li > a:hover:after, .custom-navbar > li > a.active:after {
+      opacity: 1;
+      transform: translateY(3px); }
     .custom-navbar > li > a:after {
       content: "";
       position: absolute;
@@ -233,6 +231,32 @@ body {
   margin: -0.3rem 0.5rem 0 0;
   color: #65bd69;
   stroke-width: 3px; }
+
+.banner-section {
+  background: url("../images/thumbs-up-banner.jpg") no-repeat right center;
+  background-size: cover;
+  height: 50rem;
+  position: relative; }
+  .banner-section > .d-flex {
+    height: 100%; }
+
+.banner-content {
+  color: #333;
+  max-width: 70rem; }
+  .banner-content > h1 {
+    margin: 0 0 3rem;
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 6rem;
+    letter-spacing: -0.08rem; }
+  .banner-content > p {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    margin: 0 0 3rem; }
+
+.banner-button .btn {
+  border-radius: 3rem;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.25); }
 
 /** Footer **/
 .footer {
@@ -906,9 +930,8 @@ body {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 1px; }
+  letter-spacing: 0.03rem; }
 
 .instagram-slick {
   visibility: hidden;
@@ -965,6 +988,8 @@ body {
   background: url("../images/subpage-bg.jpg") no-repeat center center;
   background-size: cover;
   height: 18rem; }
+  .subpage-banner .table-container {
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .subpage-head {
   color: #fff;
@@ -1137,7 +1162,7 @@ body {
     margin: 0 auto 3.5rem; }
 
 .pro-prev-next-wrapper {
-  background-color: #f7f7f7;
+  background-color: rgba(85, 188, 117, 0.05);
   padding: 4rem; }
 
 .mb30 {
@@ -1165,7 +1190,8 @@ body {
 .service-col {
   text-align: center;
   padding: 0 5rem;
-  line-height: 2.5rem; }
+  line-height: 2.5rem;
+  margin-bottom: 5rem; }
   .service-col > img {
     margin-bottom: 2rem;
     width: 6.5rem; }
@@ -1197,7 +1223,7 @@ body {
   padding: 5rem 0; }
 
 .product-section {
-  background-color: #f7f7f7; }
+  background-color: rgba(85, 188, 117, 0.05); }
   .product-section .product-column {
     margin-bottom: 6rem; }
 
@@ -1208,13 +1234,6 @@ body {
 .text-center {
   text-align: center; }
 
-.customer-section {
-  text-align: center;
-  background-color: #f7f7f7; }
-  .customer-section h4 {
-    font-weight: 600;
-    margin: 2rem 0; }
-
 .customer-list {
   list-style: none;
   margin: 0;
@@ -1224,11 +1243,62 @@ body {
     display: inline-block;
     vertical-align: middle;
     width: 22%;
-    margin: 1rem; }
+    margin: 1rem;
+    border: 0.1rem solid #ddd; }
     .customer-list > li > img {
       height: 9rem;
       padding: 1.2rem;
       max-width: 100%; }
+
+[class*="btn-outline"] {
+  font-weight: 600;
+  box-shadow: 0 2px 4px 0 rgba(21, 30, 70, 0.12); }
+
+.btn-outline-secondary {
+  color: #223464;
+  border-color: rgba(34, 52, 100, 0.3); }
+  .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active {
+    border-color: #6c757d !important;
+    background-color: transparent !important;
+    color: #223464 !important; }
+
+.product-section {
+  padding-bottom: 30rem; }
+
+.home-contact-form {
+  position: relative;
+  border: 0.1rem solid #e9ebf8;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.8rem 1.2rem 0 rgba(14, 36, 129, 0.08);
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem 5rem 5rem;
+  max-width: 70rem;
+  margin: -25rem auto 0; }
+  .home-contact-form .form-group {
+    margin-bottom: 2rem; }
+
+.contact-section {
+  padding-bottom: 10rem; }
+
+.gallery-section {
+  padding: 0 0 8rem; }
+
+.gallery-list {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  margin-bottom: 5rem; }
+
+.gallery-list > div {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+
+.gallery-item {
+  box-shadow: 0 8px 12px 0 rgba(14, 36, 129, 0.08);
+  margin-bottom: 1rem; }
+
+.gallery-item > img {
+  border-radius: 0.4rem; }
 
 .custom-marker-content {
   color: #333;

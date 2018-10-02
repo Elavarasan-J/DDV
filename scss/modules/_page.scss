@@ -1,9 +1,12 @@
-$secon-color: rgba(85, 188, 117, 0.05);
+$bg: rgba(85, 188, 117, 0.05);
 
 .subpage-banner{
     background: url('../images/subpage-bg.jpg')no-repeat center center;
 	background-size: cover;
 	height: 18rem;
+    .table-container{
+        background-color: rgba(0,0,0,0.5);
+    }
 }
 .subpage-head{
 	color: #fff;
@@ -202,7 +205,7 @@ $secon-color: rgba(85, 188, 117, 0.05);
     }
 }
 .pro-prev-next-wrapper{
-    background-color: #f7f7f7;
+    background-color: $bg;
     padding: 4rem;
 }
 .mb30{
@@ -231,6 +234,7 @@ $secon-color: rgba(85, 188, 117, 0.05);
     text-align: center;
     padding: 0 5rem;
     line-height: 2.5rem;
+    margin-bottom: 5rem;
     >img{
         margin-bottom: 2rem;
         width: 6.5rem;
@@ -266,7 +270,7 @@ $secon-color: rgba(85, 188, 117, 0.05);
     padding: 5rem 0;
 }
 .product-section{
-    background-color: #f7f7f7;
+    background-color: $bg;
     .product-column{
         margin-bottom: 6rem;
     }
@@ -278,14 +282,6 @@ $secon-color: rgba(85, 188, 117, 0.05);
 .text-center{
     text-align: center;
 }
-.customer-section{
-    text-align: center;
-    background-color: #f7f7f7;
-    h4{
-        font-weight: 600;
-        margin: 2rem 0;
-    }
-}
 .customer-list{
     list-style: none;
     margin: 0;
@@ -296,6 +292,7 @@ $secon-color: rgba(85, 188, 117, 0.05);
         vertical-align: middle;
         width: 22%;
         margin: 1rem;
+        border: 0.1rem solid #ddd;
         >img{
             height: 9rem;
             padding: 1.2rem;
@@ -303,3 +300,54 @@ $secon-color: rgba(85, 188, 117, 0.05);
         }
     }
 }
+
+[class*="btn-outline"]{
+  font-weight: 600;
+  box-shadow: 0 2px 4px 0 rgba(21, 30, 70, 0.12); 
+}
+
+.btn-outline-secondary {
+  color: #223464;
+  border-color: rgba(34, 52, 100, 0.3); 
+    &:hover,&:focus,&:active{
+        border-color: #6c757d !important;
+        background-color: transparent !important;
+        color: #223464 !important;
+    }
+}
+.product-section{
+    padding-bottom: 30rem;
+}
+.home-contact-form{
+    position: relative;
+    border: 0.1rem solid #e9ebf8;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.8rem 1.2rem 0 rgba(14, 36, 129, 0.08);
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 5rem 5rem;
+    max-width: 70rem;
+    margin: -25rem auto 0;
+    .form-group{
+        margin-bottom: 2rem;
+    }
+}
+.contact-section{
+    padding-bottom: 10rem;
+}
+.gallery-section {
+  padding: 0 0 8rem; }
+
+.gallery-list {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  margin-bottom: 5rem; }
+  .gallery-list > div {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+
+.gallery-item {
+  box-shadow: 0 8px 12px 0 rgba(14, 36, 129, 0.08);
+  margin-bottom: 1rem; }
+  .gallery-item > img {
+    border-radius: 0.4rem; }

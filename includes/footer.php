@@ -70,5 +70,11 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/feather.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/lightgallery.min.js"></script>
+<script>
+			$('#gallery').lightGallery({
+				selector: '.gallery-item'
+			});
+		</script>
 </body>
 </html>

@@ -45,6 +45,17 @@
                     </div>
                 </div>
             </div>
+            
+            <br>
+            <h3 class="about-title">Our Customers</h3>
+            <hr class="line50 center-block">
+            <ul class="customer-list">
+                <li><img src="images/customer/sony-pictures_42.png" alt=""></li>
+                <li><img src="images/customer/lt-infotech_44.png" alt=""></li>
+                <li><img src="images/customer/tcs_45.png" alt=""></li>
+                <li><img src="images/customer/umw_46.png" alt=""></li>
+            </ul>
+            
         </div>
 	</div>
 </div>

@@ -6,25 +6,18 @@
 ?>
 
 <!--Banner Carousel -->
-<div id="slides">
-	<ul class="slides-container">
-        <li class="slides-item">
-			<div class="slides-bg" style="background:url('images/slider1.jpg');" alt=""></div>
-		</li>
-		<li class="slides-item">
-			<div class="slides-bg" style="background:url('images/slider1.jpg');" alt=""></div>
-		</li>
-		
-	</ul>
-
-	<nav class="slides-navigation">
-		<a href="#" class="next"></a>
-		<a href="#" class="prev"></a>
-	</nav>
-	
-	<!--<div class="scroll-down">
-		<span class="scroll-dot"></span>
-	</div>-->
+<div class="banner-section">
+    <div class="d-flex align-items-center">
+        <div class="container">
+             <div class="banner-content">
+                 <h1>Quality is Our Success</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <div class="banner-button">
+                    <a href="about-us.php" class="btn btn-lg btn-outline-success">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!--/Banner Carousel -->
 
@@ -94,19 +87,18 @@
             </div>
         </div>
         <div class="submit-button text-center">
-            <a href="#" class="btn btn-success">View All</a>
+            <a href="#" class="btn btn-outline-secondary">View All</a>
         </div>
     </div>
 </div>
 
 <div class="p50 contact-section">
     <div class="container">
-        <div class="section-head">
-            <h3 class="about-title">Enquire Us</h3>
-            <hr class="line50 center-block">
-        </div>
-        <div class="enquiry-wrapper">
-             
+        <div class="home-contact-form">
+            <div class="section-head">
+                <h3 class="about-title">Enquire Us</h3>
+                <hr class="line50 center-block">
+            </div>
             <form>
                 <div class="row form-group">
                     <div class="col-sm">
@@ -137,16 +129,60 @@
     </div>
 </div>
 
-<div class="customer-section">
-    <div class="container"> 
-        <ul class="customer-list">
-            <li><img src="images/customer/sony-pictures_42.png" alt=""></li>
-            <li><img src="images/customer/lt-infotech_44.png" alt=""></li>
-            <li><img src="images/customer/tcs_45.png" alt=""></li>
-            <li><img src="images/customer/umw_46.png" alt=""></li>
-        </ul>
-    </div>
-</div>
-
+<section class="gallery-section">
+	<div class="container">
+		 <div class="section-head">
+            <h3 class="about-title">Gallery</h3>
+            <hr class="line50 center-block">
+        </div>
+		<div class="row gallery-list" id="gallery">
+			<div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev1.jpg" alt="DDV">
+				</div>
+			</div>
+			<div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev2.jpg" alt="DDV">
+				</div>
+			</div>
+			   <div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev1.jpg" alt="DDV">
+				</div>
+			</div>
+			<div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev2.jpg" alt="DDV">
+				</div>
+			</div>
+            <div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev1.jpg" alt="DDV">
+				</div>
+			</div>
+			<div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev2.jpg" alt="DDV">
+				</div>
+			</div>
+            <div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev1.jpg" alt="DDV">
+				</div>
+			</div>
+			<div class="col-6 col-sm-4 col-md-3">
+				<div class="gallery-item">
+					<img class="img-fluid" src="images/gallery/thumb/dev2.jpg" alt="DDV">
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="d-flex justify-content-center">
+			<a href="gallery.php" class="btn btn-outline-secondary btn-lg">View More</a>
+		</div>
+	</div>
+</section>
 
 <?php include_once('includes/footer.php'); ?>
